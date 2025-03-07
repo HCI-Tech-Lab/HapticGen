@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="HapticGen"/>
+  <meta property="og:description" content="Generative Text-to-Vibration Model for Streamlining Haptic Design"/>
+  <meta property="og:url" content="https://hcitech.org/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta name="twitter:title" content="HapticGen">
+  <meta name="twitter:description" content="Authoring In-situ Hand Posture-Adaptive Vibrotactile Feedback for Virtual Reality">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Haptics, Designers, Generative AI, Extended Reality">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design </title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+    rel="stylesheet">
+  
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L11CDKTS4E"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-L11CDKTS4E');
+  </script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">HapticGen🤖</h1>
+            <h1 class="title is-3 publication-title">Generative Text-to-Vibration Model <br> for Streamlining Haptic Design <a href="https://programs.sigchi.org/chi/2025" target="_blank">(CHI '25)</a></h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block"> <a href="https://www.linkedin.com/in/you6jin7sung/" target="_blank">Youjin Sung<small><sup>1</sup></small><small><sup>*</sup></small></a>,</span>
+              <span class="author-block"> <a href="" target="_blank">Kevin John<small><sup>2</sup></small><small><sup>*</sup></small></a>,</span>
+              <span class="author-block"> <a href="https://sanghoy.com/" target="_blank">Sang Ho Yoon<small><sup>1</sup></small><small><sup>†</sup></small></a>,</span>
+              <span class="author-block"> <a href="https://hastiseifi.com/" target="_blank">Hasti Seifi<small><sup>2</sup></small><small><sup>†</sup></small></a></span>
+            </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><small><sup>(1)</sup></small>KAIST&nbsp&nbsp&nbsp&nbsp&nbsp<small><sup>(2)</sup></small>ASU<br> </span> 
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution&nbsp&nbsp&nbsp&nbsp&nbsp</small><small><sup>†</sup>Sang Ho Yoon and Hasti Seifi are the corresponding authors.</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="static\pdfs\paper.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper (16.9 MB)</span>
+                      </a>
+                    </span>
+
+
+                <!-- Dataset Link -->
+                <span class="link-block">
+                  <a href="https://github.com/HapticGen/HapticGen" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+
+                  </span>
+                  <span>Github</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://github.com/HapticGen/HapticGen" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fa fa-external-link-alt"></i>
+
+                </span>
+                <span>Model Weights(🤗Huggingface)</span>
+              </a>
+            </span>
+
+            <span class="link-block">
+              <a href="https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/CHI25/524/6262bdae-d6c0-11ef-ada9-16bb50361d1f/OUT/chi25-524.html" target="_blank"
+              class="external-link button is-normal is-rounded is-light">
+              <span class="icon">
+                <i class="fa fa-internet-explorer"></i>
+              </span>
+              <span>ACM DL(Coming Soon!)</span>
+            </a>
+          </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop"></div>
+    <div class="hero-body">
+
+      <h2 class="subtitle has-text-centered">
+        🔎 HapticGen is a generative model that streamlines the complex process of vibrotactile design by allowing designers to create diverse haptic feedback simply by typing text prompts.
+        
+      </h2>
+      <video poster="" id="tree" autoplay="" controls="" muted="" loop="" height="90%">
+        <!-- Your video here -->
+        <source src="static/videos/main.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Designing haptic effects is a complex, time-consuming process requiring specialized skills and tools. To support haptic design, we introduce HapticGen, a generative model designed to create vibrotactile signals from text inputs. We conducted a formative workshop to identify requirements for an AI-driven haptic model. Given the limited size of existing haptic datasets, we trained HapticGen on a large, labeled dataset of 335k audio samples using an automated audio-to-haptic conversion method. Expert haptic designers then used HapticGen's integrated interface to prompt and rate signals, creating a haptic-specific preference dataset for fine-tuning. We evaluated the fine-tuned HapticGen with 32 users, qualitatively and quantitatively, in an A/B comparison against a baseline text-to-audio model with audio-to-haptic conversion. Results show significant improvements in five haptic experience (e.g., realism) and system usability factors (e.g., future use). Qualitative feedback indicates HapticGen streamlines the ideation process for designers and helps generate diverse, nuanced vibrations.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Youtube video -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video Teaser</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://www.youtube.com/embed/Fja8FzP7ptM?si=L6zlnXOuxalb4ZAf" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">ACM Reference Format:</h2>
+
+      Youjin Sung, Kevin John, Sang Ho Yoon, and Hasti Seifi. 2025. HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design. In CHI Conference on Human Factors in Computing Systems (CHI '25), April 26--May 01, 2025, Yokohama, Japan. ACM, New York, NY, USA 24 Pages. https://doi.org/10.1145/3706598.3713609
+
+  </div>
+</section>
+
+  </body>
+  </html>
