@@ -50,7 +50,12 @@
     
       gtag('config', 'G-L11CDKTS4E');
   </script>
+
+
+
 </head>
+
+
 <body>
 
 
@@ -59,19 +64,22 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">HapticGen🤖</h1>
-            <h1 class="title is-3 publication-title">Generative Text-to-Vibration Model <br> for Streamlining Haptic Design <a href="https://programs.sigchi.org/chi/2025" target="_blank">(CHI '25)</a></h1>
+            <h1 class="title is-1 publication-title">
+              <span class="typing-title">HapticGen🤖</span>
+            </h1>
+            <h1 class="title is-3 publication-title"> Generative Text-to-Vibration Model <br> for Streamlining Haptic Design <a href="https://programs.sigchi.org/chi/2025" target="_blank">(CHI '25) </a></h1>
+
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block"> <a href="https://www.linkedin.com/in/you6jin7sung/" target="_blank">Youjin Sung<small><sup>1</sup></small><small><sup>*</sup></small></a>,</span>
-              <span class="author-block"> <a href="" target="_blank">Kevin John<small><sup>2</sup></small><small><sup>*</sup></small></a>,</span>
+              <span class="author-block"> <a href="https://github.com/kevin-cgc" target="_blank">Kevin John<small><sup>2</sup></small><small><sup>*</sup></small></a>,</span>
               <span class="author-block"> <a href="https://sanghoy.com/" target="_blank">Sang Ho Yoon<small><sup>1</sup></small><small><sup>†</sup></small></a>,</span>
               <span class="author-block"> <a href="https://hastiseifi.com/" target="_blank">Hasti Seifi<small><sup>2</sup></small><small><sup>†</sup></small></a></span>
             </div>
 
                   <div class="is-size-5 publication-authors">
                     <span class="author-block"><small><sup>(1)</sup></small>KAIST&nbsp&nbsp&nbsp&nbsp&nbsp<small><sup>(2)</sup></small>ASU<br> </span> 
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution&nbsp&nbsp&nbsp&nbsp&nbsp</small><small><sup>†</sup>Sang Ho Yoon and Hasti Seifi are the corresponding authors.</small></span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution&nbsp&nbsp&nbsp&nbsp&nbsp</small><small><sup>†</sup>Corresponding Authors</small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -100,7 +108,7 @@
                 </a>
               </span>
 
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/HapticGen/HapticGen" target="_blank"
                 class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
@@ -112,14 +120,28 @@
             </span>
 
             <span class="link-block">
-              <a href="https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/CHI25/524/6262bdae-d6c0-11ef-ada9-16bb50361d1f/OUT/chi25-524.html" target="_blank"
+              <a href="https://osf.io/vdmej/" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fa fa-database"></i>
+
+              </span>
+              <span>OSF</span>
+            </a>
+          </span>-->
+
+            <span class="link-block">
+              <a href="https://doi.org/10.1145/3706598.3713609" target="_blank"
               class="external-link button is-normal is-rounded is-light">
               <span class="icon">
-                <i class="fa fa-internet-explorer"></i>
+                <!-- <i class="fa fa-globe fa-w-16"></i> -->
+                <i class="fab fa-globe fa-w-16"></i>
               </span>
-              <span>ACM DL(Coming Soon!)</span>
+              <span>DOI(Coming Soon!)</span>
             </a>
-          </span>
+          </span> 
+
+          
 
             </div>
           </div>
@@ -134,12 +156,12 @@
     <div class="hero-body">
 
       <h2 class="subtitle has-text-centered">
-        🔎 HapticGen is a generative model that streamlines the complex process of vibrotactile design by allowing designers to create diverse haptic feedback simply by typing text prompts.
+        🔎 HapticGen is a generative model that streamlines the complex process of vibrotactile design <br> by allowing designers to create diverse haptic feedback simply by typing text prompts.
         
       </h2>
       <video poster="" id="tree" autoplay="" controls="" muted="" loop="" height="90%">
         <!-- Your video here -->
-        <source src="static/videos/main.mp4" type="video/mp4">
+        <source src="static/videos/main_teaser.mp4" type="video/mp4">
       </video>
     </div>
   </div>
@@ -156,11 +178,145 @@
           <p>
             Designing haptic effects is a complex, time-consuming process requiring specialized skills and tools. To support haptic design, we introduce HapticGen, a generative model designed to create vibrotactile signals from text inputs. We conducted a formative workshop to identify requirements for an AI-driven haptic model. Given the limited size of existing haptic datasets, we trained HapticGen on a large, labeled dataset of 335k audio samples using an automated audio-to-haptic conversion method. Expert haptic designers then used HapticGen's integrated interface to prompt and rate signals, creating a haptic-specific preference dataset for fine-tuning. We evaluated the fine-tuned HapticGen with 32 users, qualitatively and quantitatively, in an A/B comparison against a baseline text-to-audio model with audio-to-haptic conversion. Results show significant improvements in five haptic experience (e.g., realism) and system usability factors (e.g., future use). Qualitative feedback indicates HapticGen streamlines the ideation process for designers and helps generate diverse, nuanced vibrations.
         </div>
+        <div class="learn-more-container" style="margin-top: 20px;">
+          <a href="https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/CHI25/524/6262bdae-d6c0-11ef-ada9-16bb50361d1f/OUT/chi25-524.html" target="_blank" class="button is-info is-rounded is-light">
+            <span class="icon">
+              <i class="fas fa-arrow-right"></i>
+            </span>
+            <span>Learn more about HapticGen</span>
+            
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
 <!-- End paper abstract -->
+
+
+<!-- Two-column section with image/video and text -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-four-fifths">
+      <!-- Left column for image or video -->
+  
+        <!-- Option 1: For an image -->
+        <img src="static/images/model.png" alt="HapticGen Model Diagram" class="has-shadow" style="width: 100%; max-width: max-contentå;">
+        
+    
+      </div>
+      
+      <!-- Right column for text content -->
+
+        <h2 class="title is-3">HapticGen Model Diagram</h2>
+        <div class="content">
+          <p>
+            HapticGen features a comprehensive architecture that transforms audio and text inputs into haptic feedback patterns. 
+          </p>
+          <p>
+            The pipeline begins with a captioned audio dataset that undergoes preprocessing including speech filtering and haptic label augmentation. The core model utilizes a Transformer LM (~1.5B parameters) with parallel signal and text encoders (operating at 8kHz), followed by a signal decoder and normalization stage. The system is further refined through expert-voted datasets and DPO fine-tuning to align with human preferences.
+          </p>
+          <!-- Learn more buttons/links -->
+          <div class="learn-more-container" style="margin-top: 2rem;">
+            <div class="learn-more-container" style="margin-bottom: 1rem;">
+              <a href="https://github.com/HapticGen/HapticGen" class="button is-info is-rounded is-light">
+                <span class="icon">
+                  <i class="fas fa-circle-plus"></i>
+                </span>
+                <span>Learn more about Technical details</span>
+              </a>
+            </div>
+
+            
+            
+            <div class="learn-more-item" style="margin-bottom: 1rem;">
+              <a href="https://github.com/HapticGen/hapticgen-dataset" class="button is-info is-rounded is-light">
+                <span class="icon">
+                  <i class="fas fa-circle-plus"></i>
+                </span>
+                <span>Learn more about Datasets</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End two-column section -->
+
+
+
+<!-- Two-column section with image/video and text -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-vcentered">
+      
+      
+      <!-- Right column for text content -->
+      <div class="column is-half">
+        <h2 class="title is-3">HapticGen UI</h2>
+        <div class="content">
+          <p>
+            Our UI allows users to generate haptic signals directly from text prompts or select from existing samples. 
+          </p>
+        
+        
+        </div>
+      </div>
+      <!-- Left column for image or video -->
+      <div class="column is-half">
+        
+        <!-- Option 2: For a video (uncomment if using video instead of image) -->
+        
+        <video poster="" id="model-video" autoplay controls muted loop width="100%">
+          <source src="static/videos/ui.mp4" type="video/mp4">
+        </video>
+       
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End two-column section -->
+
+<!-- Two-column section with image/video and text -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-vcentered">
+      
+      
+      <!-- Right column for text content -->
+      <div class="column is-half">
+
+        <div class="content">
+
+          <!-- Option 2: For a video (uncomment if using video instead of image) -->
+        
+        <video poster="" id="model-video" autoplay controls muted loop width="100%">
+          <source src="static/videos/theme.mp4" type="video/mp4">
+        </video>
+        </div>
+      </div>
+      <!-- Left column for image or video -->
+      <div class="column is-half">
+      <h2 class="title is-3">XR scenarios with HapticGen</h2>
+        <p>
+          <b>Game, Simulation, Sports, Interaction, ...and Emotion! </b>
+          <br>
+          HapticGen is a versatile tool for creating haptic feedback in a variety of XR scenarios. 
+        </p>
+        <br>
+        <!-- <p>
+          As shown in the image, HapticGen generates significantly more expressive haptic patterns compared to baseline approaches for emotional themes like "The frustration of lying awake in bed as you toss and turn."
+        </p>
+       -->
+       
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End two-column section -->
 
 
 <!-- Youtube video -->
@@ -184,9 +340,89 @@
 <!-- End youtube video -->
 
 
+<!-- Resources Section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Section headers -->
+    <div class="has-text-centered mb-4">
+      <h3 class="is-size-6 has-text-grey mb-1">Resources</h3>
+      <h2 class="title is-3">Explore more on HapticGen</h2>
+    </div>
+
+    <!-- 2x2 Grid of pill buttons -->
+    <div class="columns is-multiline">
+      <!-- First row -->
+      <div class="column is-half">
+        <a href="https://github.com/HapticGen/HapticGen" class="pill-button">
+          <span class="icon">
+            <i class="fa fa-arrow-circle-right"></i>
+          </span>
+          <span>Code</span>
+        </a>
+      </div>
+      
+      <div class="column is-half">
+        <a href="https://huggingface.co/HapticGen" class="pill-button">
+          <span class="icon">
+            <i class="fa fa-arrow-circle-right"></i>
+          </span>
+          <span>Model Weights(🤗Huggingface)</span>
+        </a>
+      </div>
+      
+      <!-- Second row -->
+      <div class="column is-half">
+        <a href="https://osf.io/vdmej/" target="_blank" class="pill-button">
+          <span class="icon">
+            <i class="fa fa-arrow-circle-right"></i>
+          </span>
+          <span>OSF</span>
+        </a>
+      </div>
+      
+      <div class="column is-half">
+        <a href="" target="_blank" class="pill-button">
+          <span class="icon">
+            <i class="fab fa-arrow-circle-right"></i>
+          </span>
+          <span>Video Presentation (Coming Soon!) </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Add this CSS to your stylesheet or in a <style> tag in the head -->
+<style>
+  .pill-button {
+    display: flex;
+    align-items: center;
+    background-color: #f5f7fa;
+    border-radius: 50px;
+    padding: 12px 20px;
+    color: #333333;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-size: 16px;
+    margin-bottom: 12px;
+    height: 100%;
+  }
+  
+  .pill-button .icon {
+    margin-right: 10px;
+    opacity: 0.6;
+  }
+  
+  .pill-button:hover {
+    background-color: #e8ecf0;
+    transform: translateY(-2px);
+  }
+</style>
+<!-- End resources section -->
 
 <!--BibTex citation -->
-<section class="section" id="BibTeX">
+
+<section class="section hero is-small" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">ACM Reference Format:</h2>
 
@@ -194,6 +430,26 @@
 
   </div>
 </section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
 
   </body>
   </html>
