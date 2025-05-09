@@ -132,12 +132,12 @@
 
             <span class="link-block">
               <a href="https://doi.org/10.1145/3706598.3713609" target="_blank"
-              class="external-link button is-normal is-rounded is-light">
+              class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
-                <!-- <i class="fa fa-globe fa-w-16"></i> -->
-                <i class="fab fa-globe fa-w-16"></i>
+                <i class="fa fa-globe fa-w-16"></i>
+                <!-- <i class="fab fa-globe fa-w-16"></i> -->
               </span>
-              <span>DOI(Coming Soon!)</span>
+              <span>DOI</span>
             </a>
           </span> 
 
@@ -427,11 +427,33 @@
 <!--BibTex citation -->
 
 <section class="section hero is-small" id="BibTeX">
-  <div class="container is-max-desktop content">
+  <!-- <div class="container is-max-desktop content">
     <h2 class="title">ACM Reference Format:</h2>
 
       Youjin Sung, Kevin John, Sang Ho Yoon, and Hasti Seifi. 2025. HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design. In CHI Conference on Human Factors in Computing Systems (CHI '25), April 26--May 01, 2025, Yokohama, Japan. ACM, New York, NY, USA 24 Pages. https://doi.org/10.1145/3706598.3713609
 
+  </div> -->
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @inproceedings{10.1145/3706598.3713609,
+        author = {Sung, Youjin and John, Kevin and Yoon, Sang Ho and Seifi, Hasti},
+        title = {HapticGen: Generative Text-to-Vibration Model for Streamlining Haptic Design},
+        year = {2025},
+        isbn = {9798400713941},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        url = {https://doi.org/10.1145/3706598.3713609},
+        doi = {10.1145/3706598.3713609},
+        abstract = {Designing haptic effects is a complex, time-consuming process requiring specialized skills and tools. To support haptic design, we introduce HapticGen, a generative model designed to create vibrotactile signals from text inputs. We conducted a formative workshop to identify requirements for an AI-driven haptic model. Given the limited size of existing haptic datasets, we trained HapticGen on a large, labeled dataset of 335k audio samples using an automated audio-to-haptic conversion method. Expert haptic designers then used HapticGen’s integrated interface to prompt and rate signals, creating a haptic-specific preference dataset for fine-tuning. We evaluated the fine-tuned HapticGen with 32 users, qualitatively and quantitatively, in an A/B comparison against a baseline text-to-audio model with audio-to-haptic conversion. Results show significant improvements in five haptic experience (e.g., realism) and system usability factors (e.g., future use). Qualitative feedback indicates HapticGen streamlines the ideation process for designers and helps generate diverse, nuanced vibrations.},
+        booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+        articleno = {495},
+        numpages = {24},
+        keywords = {Haptics, Designers, Generative AI, Extended Reality},
+        series = {CHI '25}
+        }
+    </code></pre>
+    
   </div>
 </section>
 
