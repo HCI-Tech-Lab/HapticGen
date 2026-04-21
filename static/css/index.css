@@ -150,34 +150,24 @@ body {
 
 /* Base styles for your existing content */
 
-/* Title fade-in + slide up */
-.title-fadein {
-  animation: titleFadeIn 0.9s ease both;
-}
 
-@keyframes titleFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(16px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Emoji cycling: 📸 → 🧠 → 🤸 → 💪 */
-.emoji-cycle::before {
-  content: '📸';
+/* Typing animation styles */
+.typing-title {
   display: inline-block;
-  animation: emojiCycle 3.2s steps(1) infinite;
-}
-
-@keyframes emojiCycle {
-  0%   { content: '📸'; }
-  25%  { content: '🧠'; }
-  50%  { content: '🤸'; }
-  75%  { content: '💪'; }
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 1s steps(40, end), blink-caret 0.75s step-end infinite;
+  border-right: 2px solid #4a4a4a;
 }
 
 
+@keyframes typing {
+  from { width: 100 }
+  to { width: 100 }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #4a4a4a }
+}
